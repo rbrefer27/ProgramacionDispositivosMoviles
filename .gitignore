@@ -1,15 +1,26 @@
+# Android Studio/IntelliJ
+.idea/
 *.iml
+
+# Gradle
 .gradle
+
+# Local config
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
+
+# Generated files
 /build
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+
+# macOS
+.DS_Store
+
+# Specific Idea files (redundant but optional)
+#.idea/caches
+#.idea/libraries
+#.idea/modules.xml
+#.idea/workspace.xml
+#.idea/navEditor.xml
+#.idea/assetWizardSettings.xml
